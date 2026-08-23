@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Act_ive De_sk — design direction preview | studioPalmes</title>
-<meta name="description" content="Stage 0 design direction preview for the Act_ive De_sk demo site: palette, typography, the signature rise motif and the homepage act map.">
+<title>Act_ive De_sk — Stage 0 plan preview | studioPalmes</title>
+<meta name="description" content="Stage 0 plan preview for the Act_ive De_sk rebuild: proposed tokens, the underscore system, the signature scroll mechanic and the homepage act map.">
 <meta name="robots" content="noindex, nofollow">
-<meta property="og:title" content="Act_ive De_sk — design direction preview">
-<meta property="og:description" content="Stage 0 design direction preview: palette, typography, signature rise motif and homepage act map.">
+<meta property="og:title" content="Act_ive De_sk — Stage 0 plan preview">
+<meta property="og:description" content="Proposed tokens, the underscore system, the signature scroll mechanic and the homepage act map.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#f5f1ea">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -22,8 +22,8 @@
 
 <div class="dp-banner">
   <div class="shell dp-banner__inner">
-    <strong>Stage 0 · Direction preview</strong>
-    <span>Not the finished site — this page exists so the design direction can be approved in the browser. The homepage replaces it at Stage 1.</span>
+    <strong>Stage 0 · Plan preview</strong>
+    <span>Not the site. This page exists so the plan can be judged in a browser before the build starts. Internal — for Faisal, not for James.</span>
   </div>
 </div>
 
@@ -33,7 +33,7 @@
       Act<span class="wordmark__rule" aria-hidden="true"></span>ive
       De<span class="wordmark__rule" aria-hidden="true"></span>sk
     </a>
-    <p class="dp-nav__meta">studioPalmes · spec build</p>
+    <p class="dp-nav__meta">studioPalmes · rebuild</p>
   </div>
 </header>
 
@@ -41,15 +41,15 @@
 
   <section class="dp-hero">
     <div class="shell">
-      <p class="eyebrow">Design direction</p>
+      <p class="eyebrow">Stage 0 · revised</p>
       <h1 class="dp-hero__title">Work Smarter. Be Healthier. Live Happier.</h1>
       <p class="dp-hero__lede">
-        The proposed palette, typography and signature motion for the Act_ive De_sk demo
-        site — rendered live rather than described, so the direction can be judged on how
-        it actually feels. Approve or redirect, and the build begins.
+        The underscores in the wordmark above are already doing what the logo does — rising and
+        falling alternately, one up while the other is down. That device is the whole idea: at
+        full scale, scroll drives both the underscores and the desk together.
       </p>
       <div class="dp-hero__actions">
-        <a class="btn btn--primary" href="#rise">See the signature motion</a>
+        <a class="btn btn--primary" href="#mechanic">The signature mechanic</a>
         <a class="btn btn--ghost" href="#acts">The act map</a>
       </div>
     </div>
@@ -58,114 +58,45 @@
   <section class="dp-section reveal">
     <div class="shell">
       <div class="dp-section__head">
-        <p class="eyebrow">01 · Palette</p>
-        <h2 class="dp-section__title">Warm ground, deep ink, one confident accent</h2>
+        <p class="eyebrow">01 · Decisions I need</p>
+        <h2 class="dp-section__title">Three approvals unblock the build</h2>
         <p class="dp-section__note">
-          A gallery-warm bone ground rather than the cold white every desk brand defaults
-          to — it flatters wood tones and reads premium immediately. One accent does all
-          the conversion work, so every orange element on the page means something.
+          Full reasoning is in <strong>STAGE0_PLAN.md</strong> in the repo. Everything else in
+          the swap list can arrive during the build without blocking it.
         </p>
       </div>
-      <div class="dp-swatches">
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#f5f1ea"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Bone</p>
-            <p class="dp-swatch__hex">#F5F1EA</p>
-            <p class="dp-swatch__role">Page ground throughout.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#fcfaf6"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Raised</p>
-            <p class="dp-swatch__hex">#FCFAF6</p>
-            <p class="dp-swatch__role">Cards, panels, lifted surfaces.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#17150f"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Ink</p>
-            <p class="dp-swatch__hex">#17150F</p>
-            <p class="dp-swatch__role">Headlines and body. Warm charcoal, not black.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#e8541d"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Signal</p>
-            <p class="dp-swatch__hex">#E8541D</p>
-            <p class="dp-swatch__role">The single accent — CTAs, markers, the rising underscore.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#b08954"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Wood</p>
-            <p class="dp-swatch__hex">#B08954</p>
-            <p class="dp-swatch__role">Desktop material tone in the 3D scene.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#6f6e6a"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Steel</p>
-            <p class="dp-swatch__hex">#6F6E6A</p>
-            <p class="dp-swatch__role">Frame and leg columns.</p>
-          </div>
-        </div>
+      <div class="dp-needs">
+        <p class="dp-need">
+          <strong>Scope: build the pitch, not the whole site</strong>
+          <span>The spec asks for thirteen routes. That is a full commercial build, on your own time, for an October project. The homepage narrative, the finish selector and the legal footer are what win the engagement — the eleven inner pages are blocked on content from James anyway.</span>
+        </p>
+        <p class="dp-need">
+          <strong>Drop the 3D desk — I am reversing my own recommendation</strong>
+          <span>The brand spec's rule is that a convincing CSS raise ships first. The desk below is that CSS raise, and it works. No library weight, no capability-gate risk, nothing to break on a cheap phone. Revisit it when real product photography exists — an image sequence from your own shoot would beat both options.</span>
+        </p>
+        <p class="dp-need">
+          <strong>Accept the palette as a working placeholder</strong>
+          <span>Nothing here was sampled from their site — see the note below. The build needs some palette to proceed; this one is defensible and takes minutes to replace once SicoCreative's guidelines arrive.</span>
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="dp-section reveal">
+  <section class="dp-section reveal" id="mechanic">
     <div class="shell">
       <div class="dp-section__head">
-        <p class="eyebrow">02 · Typography</p>
-        <h2 class="dp-section__title">Two families, clear division of labour</h2>
-      </div>
-      <div class="dp-type">
-        <div class="dp-type__card">
-          <p class="dp-type__label">Display · Archivo</p>
-          <p class="dp-type__sample-display">The Smooth Operator</p>
-          <p class="dp-type__why">
-            A confident grotesque with genuine width range. Set tight and heavy it gives
-            headlines the authority of a considered purchase, and it holds character at
-            the enormous sizes the scroll narrative needs.
-          </p>
-        </div>
-        <div class="dp-type__card">
-          <p class="dp-type__label">Body · Instrument Sans</p>
-          <p class="dp-type__sample-body">
-            Sitting for long unbroken periods is associated with health risks. Varying your
-            posture through the day — sitting, standing, moving between the two — is the
-            simplest change most desk workers can make.
-          </p>
-          <p class="dp-type__why">
-            Warm, highly legible, and not the default sans on every other site. Comfortable
-            for the educational sections where the copy has to carry real reading weight.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal" id="rise">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">03 · The signature motif</p>
-        <h2 class="dp-section__title">The mark rises. The desk rises.</h2>
+        <p class="eyebrow">02 · The signature mechanic</p>
+        <h2 class="dp-section__title">The logo stops being decoration and becomes the interface</h2>
         <p class="dp-section__note">
-          Active Desk already writes itself as <strong>Act_ive De_sk</strong>. That
-          underscore is the brand's own asset, and here it lifts — the mark performs the
-          product's core action. Hover the wordmark in the header to see it. The same idea
-          drives section markers, link states and, at full scale, the hero.
+          Scroll drives one progress value. That value raises the desk from seated to standing
+          and lifts the two underscores in the wordmark at the same time. Eased and weighted —
+          a desk has mass, so it must never feel like a slider. When it completes, the
+          underscores settle back into the idle loop running in the header now.
         </p>
         <p class="dp-section__note">
-          Below is a rough preview of the rise, built in CSS. In the real build this is a
-          3D desk, pinned in the viewport, with the telescoping legs driven directly by
-          scroll position — weighted and physical rather than a simple slide.
+          Below is the raise as it currently stands, in CSS. On mobile there is no pin and no
+          scrub — a lighter reveal instead. With reduced motion preferred, the desk simply
+          appears standing and all the copy is present.
         </p>
       </div>
       <div class="dp-rise">
@@ -197,17 +128,116 @@
           </div>
         </div>
         <div>
-          <h3 class="dp-section__title">Why this is the make-or-break section</h3>
+          <h3 class="dp-section__title">The underscore is a system, not a logo quirk</h3>
           <p class="dp-section__note">
-            Their current site has no motion and no product storytelling at all. A desk
-            that visibly rises as you scroll is the single clearest demonstration of what
-            a considered site does that a brochure page cannot — and it is the moment
-            James will remember.
+            It already runs into their SKUs — Active_01, Active_02, Active_03 — and into their
+            bylines: By_ James C Scott. The rebuild extends it to section numbers, list markers,
+            form-field underlines, hover states and loading indicators, so the brand reads as
+            having a grammar rather than a mark.
           </p>
           <p class="dp-section__note">
-            The shadow tightens and darkens as the desk stands, the copy fades through
-            three stages beside it, and the whole sequence is reversible: scroll back up
-            and the desk sits down again.
+            One signature moment per page, and this is the homepage's. Everything else on the
+            site is restraint.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dp-section reveal">
+    <div class="shell">
+      <div class="dp-section__head">
+        <p class="eyebrow">03 · Palette</p>
+        <h2 class="dp-section__title">Proposed, not sampled — and that distinction matters</h2>
+        <p class="dp-section__note">
+          The brand spec says do not invent a palette, so this is stated plainly:
+          <strong>none of these values came from their site.</strong> The domain is unreachable
+          from this build environment, and the original crawl could not extract hex codes or
+          font names either. The real route is James asking SicoCreative for the guidelines.
+          Until then this is a considered proposal in one block of tokens.
+        </p>
+      </div>
+      <div class="dp-swatches">
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#f5f1ea"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Bone</p>
+            <p class="dp-swatch__hex">#F5F1EA</p>
+            <p class="dp-swatch__role">Warm ground. Flatters the wood decors.</p>
+          </div>
+        </div>
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#fcfaf6"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Raised</p>
+            <p class="dp-swatch__hex">#FCFAF6</p>
+            <p class="dp-swatch__role">Cards and lifted surfaces.</p>
+          </div>
+        </div>
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#17150f"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Ink</p>
+            <p class="dp-swatch__hex">#17150F</p>
+            <p class="dp-swatch__role">Warm charcoal, not black.</p>
+          </div>
+        </div>
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#e8541d"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Signal</p>
+            <p class="dp-swatch__hex">#E8541D</p>
+            <p class="dp-swatch__role">One accent: the underscores, markers and every CTA.</p>
+          </div>
+        </div>
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#b08954"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Wood</p>
+            <p class="dp-swatch__hex">#B08954</p>
+            <p class="dp-swatch__role">Desktop reference tone.</p>
+          </div>
+        </div>
+        <div class="dp-swatch">
+          <div class="dp-swatch__chip" style="background:#6f6e6a"></div>
+          <div class="dp-swatch__body">
+            <p class="dp-swatch__name">Steel</p>
+            <p class="dp-swatch__hex">#6F6E6A</p>
+            <p class="dp-swatch__role">Powder-coated frame and legs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dp-section reveal">
+    <div class="shell">
+      <div class="dp-section__head">
+        <p class="eyebrow">04 · Typography</p>
+        <h2 class="dp-section__title">Two families, both placeholders</h2>
+        <p class="dp-section__note">
+          Same caveat as the palette: proposed, pending SicoCreative's type specimens.
+        </p>
+      </div>
+      <div class="dp-type">
+        <div class="dp-type__card">
+          <p class="dp-type__label">Display · Archivo</p>
+          <p class="dp-type__sample-display">The Smooth Operator</p>
+          <p class="dp-type__why">
+            A confident grotesque with real width range. Set tight and heavy it gives the tier
+            names the authority they deserve — they are personality archetypes, not spec labels,
+            and they are the brand's most distinctive verbal asset.
+          </p>
+        </div>
+        <div class="dp-type__card">
+          <p class="dp-type__label">Body · Instrument Sans</p>
+          <p class="dp-type__sample-body">
+            The empathy for my stepfather's loss transformed into a burning force, and
+            Act_ive De_sk was born.
+          </p>
+          <p class="dp-type__why">
+            The founder story is long-form and carries real weight. The body face has to be
+            comfortable for sustained reading and quiet enough never to decorate a bereavement.
           </p>
         </div>
       </div>
@@ -217,44 +247,78 @@
   <section class="dp-section reveal" id="acts">
     <div class="shell">
       <div class="dp-section__head">
-        <p class="eyebrow">04 · Homepage act map</p>
-        <h2 class="dp-section__title">One continuous scroll narrative</h2>
+        <p class="eyebrow">05 · Homepage act map</p>
+        <h2 class="dp-section__title">Thirteen acts, one continuous scroll</h2>
+        <p class="dp-section__note">
+          Their existing copy carries most of this. The rebuild preserves every piece of
+          information the current site holds — this is a rebuild, not a reduction.
+        </p>
       </div>
       <div class="dp-acts">
         <div class="dp-act">
           <p class="dp-act__num">01</p>
           <p class="dp-act__name">Hero</p>
-          <p class="dp-act__desc">Full viewport, desk front and centre in 3D, wordmark, the health-led line, one primary and one ghost call to action.</p>
+          <p class="dp-act__desc">Wordmark with the animated underscores, the master tagline, the positioning line, dual CTA. Desk at sitting height.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">02</p>
           <p class="dp-act__name">The Rise</p>
-          <p class="dp-act__desc">Pinned and scroll-driven: the desk travels from sitting to standing height while the copy moves through sit, transition, stand.</p>
+          <p class="dp-act__desc">The signature moment. Pinned scroll-scrub: desk rises, underscores rise in sync, copy stages through sit, transition, stand.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">03</p>
-          <p class="dp-act__name">Why movement matters</p>
-          <p class="dp-act__desc">Alternating split features with an animated posture illustration. General, claim-safe health copy — educational, never preachy.</p>
+          <p class="dp-act__name">The sitting epidemic</p>
+          <p class="dp-act__desc">Their strongest existing copy. The BMJ and Get A Move On figures used with their attributions named — never a health statistic without its source.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">04</p>
-          <p class="dp-act__name">Materials &amp; craft</p>
-          <p class="dp-act__desc">A pinned panel sequence through the four real materials: colour laminate, woodgrain, ultra-smooth touch, solid surface on plywood.</p>
+          <p class="dp-act__name">Founder moment</p>
+          <p class="dp-act__desc">The stepfather teaser, understated and human, linking through to the full story. Their single differentiator against faceless competitors.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">05</p>
-          <p class="dp-act__name">The four characters</p>
-          <p class="dp-act__desc">Active_01 to Active_04 with their personalities intact — The Expressive, The Naturalist, The Smooth Operator, The Perfectionist.</p>
+          <p class="dp-act__name">Static desks</p>
+          <p class="dp-act__desc">The affordability argument, made visually with a comparison block rather than asserted in prose.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">06</p>
-          <p class="dp-act__name">Trust</p>
-          <p class="dp-act__desc">Testimonial slots, warranty and delivery blocks laid out as if real, and a dealer strip for the business route.</p>
+          <p class="dp-act__name">The three pillars</p>
+          <p class="dp-act__desc">Work Smarter, Be Healthier, Live Happier — one scroll act each. These map onto the tagline and are the site's spine.</p>
         </div>
         <div class="dp-act">
           <p class="dp-act__num">07</p>
+          <p class="dp-act__name">The four characters</p>
+          <p class="dp-act__desc">Active_01 The Expressive, Active_02 The Naturalist, Active_03 The Smooth Operator, Active_04 The Perfectionist. Sticky cards, personality copy intact.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">08</p>
+          <p class="dp-act__name">The finish selector</p>
+          <p class="dp-act__desc">Their most wasted asset. Forty-plus finishes claimed, none shown. Ten decors are known by name, so this gets built for real.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">09</p>
+          <p class="dp-act__name">Credentials</p>
+          <p class="dp-act__desc">Animated count-ups: two decades, 15,000 hours, £15m specified, a thousand projects, founded 2021. Currently buried in prose.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">10</p>
+          <p class="dp-act__name">Proof</p>
+          <p class="dp-act__desc">All four testimonials, verbatim. Company names, logos and headshots requested from James to close the credibility gap.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">11</p>
+          <p class="dp-act__name">Commercial hooks</p>
+          <p class="dp-act__desc">Free two-week trial desk, the 21-day delivery-and-install guarantee, free space planning. Genuinely strong offers currently buried on an inner page.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">12</p>
           <p class="dp-act__name">Close</p>
-          <p class="dp-act__desc">Full-bleed finale, desk at standing height, the headline echoed, enquiry call to action.</p>
+          <p class="dp-act__desc">Ready to create a more productive workplace — dealer and business enquiry.</p>
+        </div>
+        <div class="dp-act">
+          <p class="dp-act__num">13</p>
+          <p class="dp-act__name">Footer</p>
+          <p class="dp-act__desc">New, and legally required. Company number, registered office, privacy, terms, cookies, Instagram and LinkedIn, contact, copyright.</p>
         </div>
       </div>
     </div>
@@ -263,62 +327,47 @@
   <section class="dp-section reveal">
     <div class="shell">
       <div class="dp-section__head">
-        <p class="eyebrow">05 · Build decisions</p>
-        <h2 class="dp-section__title">How the 3D and the fallbacks work</h2>
+        <p class="eyebrow">06 · Working rules</p>
+        <h2 class="dp-section__title">The constraints this build holds to</h2>
       </div>
       <div class="dp-cards">
         <div class="dp-card">
-          <h3>A desk built from primitives</h3>
+          <h3>Nothing invented</h3>
           <p>
-            The desk is modelled in code rather than downloaded, for three reasons:
+            No prices — they publish none anywhere. No specs beyond the recovered set. No
+            testimonials beyond the four verbatim ones. No new health claims. Every gap is a
+            labelled placeholder tracked in the swap list, which doubles as the questionnaire
+            for James.
           </p>
+        </div>
+        <div class="dp-card">
+          <h3>The founder story, handled with care</h3>
+          <p>
+            It records a real bereavement. The emotional architecture — loss, investigation,
+            mechanism, epiphany, mission, tribute — is preserved exactly, because the mechanism
+            step is what makes it land rather than being mere sentiment. His personal
+            photographs are never substituted. No design flourish trivialises it.
+          </p>
+        </div>
+        <div class="dp-card">
+          <h3>Motion discipline</h3>
           <ul>
-            <li>The legs must telescope in separately rigged segments — downloaded desk models are almost always a single fused mesh.</li>
-            <li>No licence risk of any kind.</li>
-            <li>Effectively no file to download, and the materials can be tied straight to the palette above.</li>
+            <li>One signature moment per page.</li>
+            <li>No scroll-jacking, ever.</li>
+            <li>Complete and handsome with motion disabled.</li>
+            <li>Mobile motion reduced aggressively, tested at 375px.</li>
+            <li>Every animation earns its place or it is cut.</li>
           </ul>
         </div>
         <div class="dp-card">
-          <h3>The fallback ladder</h3>
-          <ul>
-            <li>Capable desktop: full 3D hero and scroll-driven rise.</li>
-            <li>Mobile: a small hero canvas only where it stays smooth, with the rise handled by a lightweight animated sequence.</li>
-            <li>No 3D support, low-end device, or reduced motion preferred: still images and simple fades.</li>
-          </ul>
-          <p style="margin-top:0.75rem">The page is complete and persuasive without the 3D layer at all.</p>
-        </div>
-        <div class="dp-card">
-          <h3>Facts discipline</h3>
+          <h3>Defects fixed, not reproduced</h3>
           <p>
-            Only verified facts appear as real: the four tier names and their materials,
-            the health-led line, the dealer route, the brand stylisation. Prices, specs,
-            warranty terms, delivery times and review quotes are visibly styled
-            placeholders, every one of them tracked in a swap list for James to fill in.
+            The live site's typos, truncated paragraphs, double-dot ellipses, mixed spellings
+            and inconsistent brand casing are corrected in the rebuild. The full list is in the
+            swap list. One of them is sensitive and is flagged there to be raised with James in
+            person rather than in writing.
           </p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">06 · To move forward</p>
-        <h2 class="dp-section__title">Three things from you</h2>
-      </div>
-      <div class="dp-needs">
-        <p class="dp-need">
-          <strong>Approve or redirect the palette and type</strong>
-          <span>The accent is provisional. A screenshot of their current homepage would let the orange be matched to their real brand colour — it is a single line of code to change.</span>
-        </p>
-        <p class="dp-need">
-          <strong>The two testimonial quotes</strong>
-          <span>Phil Thompson and Will Lewis. The exact wording is not publicly indexed, so it needs pasting verbatim — nothing will be written on their behalf.</span>
-        </p>
-        <p class="dp-need">
-          <strong>A steer on the founder story</strong>
-          <span>Placeholder narrative slots are built either way, but anything real from James makes the story page land far harder.</span>
-        </p>
       </div>
     </div>
   </section>
@@ -327,8 +376,8 @@
 
 <footer class="dp-footer">
   <div class="shell dp-footer__inner">
-    <p>Demo build for Act_ive De_sk · studioPalmes &copy; <span data-year>2026</span></p>
-    <p>Spec work — private preview, not indexed</p>
+    <p>Act_ive De_sk rebuild · studioPalmes &copy; <span data-year>2026</span></p>
+    <p>Internal preview — not indexed</p>
   </div>
 </footer>
 

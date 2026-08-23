@@ -141,11 +141,15 @@ a { color: inherit; }
   transition: transform 0.55s var(--ease-rise);
 }
 
-.wordmark:hover .wordmark__rule,
-.wordmark:focus-visible .wordmark__rule { transform: translateY(-0.62em); }
+/* Idle behaviour: the two underscores rise and fall alternately, one up while
+   the other is down, continuously. This is the client's own logo behaviour. */
+@keyframes underscore-rise {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-0.6em); }
+}
 
-.wordmark:hover .wordmark__rule:last-of-type,
-.wordmark:focus-visible .wordmark__rule:last-of-type { transition-delay: 0.08s; }
+.wordmark__rule { animation: underscore-rise 3.4s var(--ease-rise) infinite; }
+.wordmark__rule:last-of-type { animation-delay: -1.7s; }
 
 /* --- Buttons -------------------------------------------------------------- */
 .btn {
