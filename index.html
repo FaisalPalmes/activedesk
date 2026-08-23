@@ -3,381 +3,570 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Act_ive De_sk — Stage 0 plan preview | studioPalmes</title>
-<meta name="description" content="Stage 0 plan preview for the Act_ive De_sk rebuild: proposed tokens, the underscore system, the signature scroll mechanic and the homepage act map.">
+<title>Act_ive De_sk® | Quality Affordable Sit Stand Desks</title>
+<meta name="description" content="Electric sit stand desks for UK workplaces. Four tiers, over 40 standard finishes, 21-day delivery and install guaranteed. Work Smarter. Be Healthier. Live Happier.">
+<link rel="canonical" href="https://activedesk.co.uk/">
 <meta name="robots" content="noindex, nofollow">
-<meta property="og:title" content="Act_ive De_sk — Stage 0 plan preview">
-<meta property="og:description" content="Proposed tokens, the underscore system, the signature scroll mechanic and the homepage act map.">
+<meta property="og:title" content="Act_ive De_sk® | Quality Affordable Sit Stand Desks">
+<meta property="og:description" content="Electric sit stand desks for UK workplaces. Work Smarter. Be Healthier. Live Happier.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
 <meta name="theme-color" content="#f5f1ea">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Active Desk",
+  "alternateName": "ACTIVEDESK LIMITED",
+  "url": "https://activedesk.co.uk/",
+  "foundingDate": "2021-06-17",
+  "founder": { "@type": "Person", "name": "James C Scott", "jobTitle": "Founder / Creative Director" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Penny Lane Business Centre, 374 Smithdown Road",
+    "addressLocality": "Liverpool",
+    "postalCode": "L15 5AN",
+    "addressCountry": "GB"
+  },
+  "identifier": { "@type": "PropertyValue", "name": "Company number", "value": "13461733" },
+  "sameAs": [
+    "https://www.instagram.com/activedesk.co.uk/",
+    "https://uk.linkedin.com/company/active-desk-ltd"
+  ]
+}
+</script>
 </head>
 <body>
 
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" data-progress aria-hidden="true"></div>
 
-<div class="dp-banner">
-  <div class="shell dp-banner__inner">
-    <strong>Stage 0 · Plan preview</strong>
-    <span>Not the site. This page exists so the plan can be judged in a browser before the build starts. Internal — for Faisal, not for James.</span>
-  </div>
-</div>
-
-<header class="dp-nav">
-  <div class="shell dp-nav__inner">
-    <a class="wordmark" href="/">
+<header class="nav" data-nav>
+  <div class="shell shell--wide nav__inner">
+    <a class="wordmark" href="/" aria-label="Act_ive De_sk home">
       Act<span class="wordmark__rule" aria-hidden="true"></span>ive
       De<span class="wordmark__rule" aria-hidden="true"></span>sk
     </a>
-    <p class="dp-nav__meta">studioPalmes · rebuild</p>
+    <nav class="nav__links" aria-label="Primary">
+      <a class="nav__link" href="/desks">The Desks</a>
+      <a class="nav__link" href="/#finishes">Finishes</a>
+      <a class="nav__link" href="/story">Our Story</a>
+      <a class="nav__link" href="/contact">Contact</a>
+    </nav>
+    <a class="btn btn--primary nav__cta" href="/contact#dealer" data-event="dealer_enquiry">Become a Dealer</a>
   </div>
 </header>
 
 <main id="main">
 
-  <section class="dp-hero">
-    <div class="shell">
-      <p class="eyebrow">Stage 0 · revised</p>
-      <h1 class="dp-hero__title">Work Smarter. Be Healthier. Live Happier.</h1>
-      <p class="dp-hero__lede">
-        The underscores in the wordmark above are already doing what the logo does — rising and
-        falling alternately, one up while the other is down. That device is the whole idea: at
-        full scale, scroll drives both the underscores and the desk together.
-      </p>
-      <div class="dp-hero__actions">
-        <a class="btn btn--primary" href="#mechanic">The signature mechanic</a>
-        <a class="btn btn--ghost" href="#acts">The act map</a>
+  <!-- ACT 01 — HERO -->
+  <section class="hero">
+    <div class="shell shell--wide hero__grid">
+      <div>
+        <p class="eyebrow">Electric sit stand desks</p>
+        <h1 class="hero__title">
+          <span>Work Smarter.</span>
+          <span>Be Healthier.</span>
+          <span>Live Happier.</span>
+        </h1>
+        <p class="hero__lede">
+          Complete ergonomic solutions for maintaining consistent productivity and efficiency
+          while ensuring employee health and well-being.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/contact#dealer" data-event="dealer_enquiry">Enquire To Become A Dealer</a>
+          <a class="btn btn--ghost" href="/desks">Explore the range</a>
+        </div>
+        <p class="hero__scroll">Scroll to raise</p>
       </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">01 · Decisions I need</p>
-        <h2 class="dp-section__title">Three approvals unblock the build</h2>
-        <p class="dp-section__note">
-          Full reasoning is in <strong>STAGE0_PLAN.md</strong> in the repo. Everything else in
-          the swap list can arrive during the build without blocking it.
-        </p>
-      </div>
-      <div class="dp-needs">
-        <p class="dp-need">
-          <strong>Scope: build the pitch, not the whole site</strong>
-          <span>The spec asks for thirteen routes. That is a full commercial build, on your own time, for an October project. The homepage narrative, the finish selector and the legal footer are what win the engagement — the eleven inner pages are blocked on content from James anyway.</span>
-        </p>
-        <p class="dp-need">
-          <strong>Drop the 3D desk — I am reversing my own recommendation</strong>
-          <span>The brand spec's rule is that a convincing CSS raise ships first. The desk below is that CSS raise, and it works. No library weight, no capability-gate risk, nothing to break on a cheap phone. Revisit it when real product photography exists — an image sequence from your own shoot would beat both options.</span>
-        </p>
-        <p class="dp-need">
-          <strong>Accept the palette as a working placeholder</strong>
-          <span>Nothing here was sampled from their site — see the note below. The build needs some palette to proceed; this one is defensible and takes minutes to replace once SicoCreative's guidelines arrive.</span>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal" id="mechanic">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">02 · The signature mechanic</p>
-        <h2 class="dp-section__title">The logo stops being decoration and becomes the interface</h2>
-        <p class="dp-section__note">
-          Scroll drives one progress value. That value raises the desk from seated to standing
-          and lifts the two underscores in the wordmark at the same time. Eased and weighted —
-          a desk has mass, so it must never feel like a slider. When it completes, the
-          underscores settle back into the idle loop running in the header now.
-        </p>
-        <p class="dp-section__note">
-          Below is the raise as it currently stands, in CSS. On mobile there is no pin and no
-          scrub — a lighter reveal instead. With reduced motion preferred, the desk simply
-          appears standing and all the copy is present.
-        </p>
-      </div>
-      <div class="dp-rise">
-        <div>
-          <div class="dp-stage" data-rise-stage>
-            <p class="dp-stage__state" data-rise-state>Seated</p>
-            <div class="dp-stage__floor" aria-hidden="true"></div>
-            <div class="dp-desk">
-              <div class="dp-desk__top"></div>
-              <div class="dp-desk__legs">
-                <div class="dp-desk__leg">
-                  <span class="dp-desk__seg dp-desk__seg--upper"></span>
-                  <span class="dp-desk__seg dp-desk__seg--lower"></span>
-                  <span class="dp-desk__foot"></span>
-                </div>
-                <div class="dp-desk__leg">
-                  <span class="dp-desk__seg dp-desk__seg--upper"></span>
-                  <span class="dp-desk__seg dp-desk__seg--lower"></span>
-                  <span class="dp-desk__foot"></span>
-                </div>
-              </div>
-              <div class="dp-desk__shadow" aria-hidden="true"></div>
+      <div class="deskstage" aria-hidden="true">
+        <div class="deskstage__floor"></div>
+        <div class="desk">
+          <div class="desk__top"></div>
+          <div class="desk__legs">
+            <div class="desk__leg">
+              <span class="desk__seg desk__seg--upper"></span>
+              <span class="desk__seg desk__seg--lower"></span>
+              <span class="desk__foot"></span>
+            </div>
+            <div class="desk__leg">
+              <span class="desk__seg desk__seg--upper"></span>
+              <span class="desk__seg desk__seg--lower"></span>
+              <span class="desk__foot"></span>
             </div>
           </div>
-          <div class="dp-rise__controls">
-            <button class="btn btn--ghost" type="button" data-rise-toggle aria-pressed="false">
-              Raise the desk
-            </button>
+          <div class="desk__shadow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 02 — THE RISE -->
+  <section class="rise" id="rise" data-rise>
+    <div class="rise__track" data-rise-track>
+      <div class="rise__pin">
+        <div class="shell shell--wide rise__grid">
+          <div class="deskstage" aria-hidden="true">
+            <div class="deskstage__floor"></div>
+            <div class="desk">
+              <div class="desk__top"></div>
+              <div class="desk__legs">
+                <div class="desk__leg">
+                  <span class="desk__seg desk__seg--upper"></span>
+                  <span class="desk__seg desk__seg--lower"></span>
+                  <span class="desk__foot"></span>
+                </div>
+                <div class="desk__leg">
+                  <span class="desk__seg desk__seg--upper"></span>
+                  <span class="desk__seg desk__seg--lower"></span>
+                  <span class="desk__foot"></span>
+                </div>
+              </div>
+              <div class="desk__shadow"></div>
+            </div>
+          </div>
+          <div class="rise__stages" data-rise-stages>
+            <div class="rise__stage is-current" data-stage="0">
+              <p class="rise__num">Sit</p>
+              <h2 class="rise__title">Where most of the day goes.</h2>
+              <p class="rise__copy">
+                Seated, static, hour after hour. It is the default position of modern work, and
+                it is the one your body was never designed to hold.
+              </p>
+              <p class="rise__height">Seated position</p>
+            </div>
+            <div class="rise__stage" data-stage="1">
+              <p class="rise__num">Transition</p>
+              <h2 class="rise__title">One touch. Quiet. Steady.</h2>
+              <p class="rise__copy">
+                A digital display with three preset heights, so the change takes a moment and
+                no thought at all. Anti-collision built in.
+              </p>
+              <p class="rise__height">Rising</p>
+            </div>
+            <div class="rise__stage" data-stage="2">
+              <p class="rise__num">Stand</p>
+              <h2 class="rise__title">Get Up Stand Up, Stand up for your life!</h2>
+              <p class="rise__copy">
+                Movement and posture variation through the day is the simplest change any desk
+                worker can make. The desk does the work, so the habit sticks.
+              </p>
+              <p class="rise__height">Standing position</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 03 — THE SITTING EPIDEMIC -->
+  <section class="section section--ink">
+    <div class="shell">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">The problem</p>
+        <h2 class="section__title">A silent killer, and it is sitting under your team right now.</h2>
+      </div>
+      <div class="split">
+        <div class="prose reveal">
+          <p>
+            The impact of prolonged sitting from sedentary working conditions is having a
+            detrimental impact on businesses and people's lives, and now becoming a silent
+            killer. Conditions associated with prolonged sitting include cardiovascular disease,
+            some forms of cancer, type 2 diabetes, and back, shoulder, and neck pain
+            (MSK conditions).
+          </p>
+          <p>
+            Often these conditions don't catch up with people until middle to old age, and
+            that's when it's too late, as they often turn into chronic conditions from years of
+            unhealthy habits.
+          </p>
+          <p>
+            Don't let this silent killer impact your business or your employees. Stem the tide,
+            and take charge of your health with Act_ive De_sk. <strong>We have your back.</strong>
+          </p>
+        </div>
+        <div class="prose reveal">
+          <p>
+            <strong>The British Medical Journal states:</strong> "Spending large amounts of time
+            sitting or lounging around during the day is linked to around 70,000 deaths per year
+            in the UK and the NHS spends more than £0.7bn per year treating the health
+            consequences."
+          </p>
+          <p>
+            <strong>And the cost to business, according to Get A Move On:</strong> "An estimated
+            6.9 million working days are lost in the UK due to work-related musculoskeletal
+            problems and the cost of poor mental health to UK business is estimated to be an
+            astonishing £35bn annually."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 04 — FOUNDER MOMENT -->
+  <section class="section">
+    <div class="shell">
+      <div class="section__head section__head--centre reveal">
+        <p class="eyebrow">Why we exist</p>
+        <h2 class="section__title">
+          "My stepfather's chronic back pain which took his life, not cancer, was the catalyst
+          for the seed to be born"
+        </h2>
+        <p class="section__lede">By_ James C Scott, Founder</p>
+        <p style="margin-top:2.5rem">
+          <a class="btn btn--ghost" href="/story">Read the founder story</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 05 — STATIC DESKS -->
+  <section class="section section--sunk">
+    <div class="shell">
+      <div class="split">
+        <div class="reveal">
+          <p class="eyebrow">Static desks</p>
+          <h2 class="section__title">Will become a thing of the past.</h2>
+        </div>
+        <div class="prose reveal">
+          <p>
+            Sit stand desks are nothing new and there are some great furniture manufacturers with
+            wonderful products out there. But for most businesses, they are just too expensive.
+          </p>
+          <p>
+            Act_ive De_sk was founded on creating affordable ergonomic solutions — quality
+            without the hefty price tag. No more boring desks. No more back-breaking static desks.
+          </p>
+          <p><strong>Everyone is important and everyone deserves a desk.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 06 — THE THREE PILLARS -->
+  <section class="section">
+    <div class="shell">
+      <div class="section__head reveal">
+        <p class="eyebrow">The difference it makes</p>
+        <h2 class="section__title">Three things change when the desk moves.</h2>
+      </div>
+      <div class="pillars reveal-group">
+        <div class="pillar">
+          <p class="pillar__label">Work Smarter</p>
+          <h3>Boost employee productivity</h3>
+          <p>
+            Act_ive De_sk promotes movement and better posture, keeping your team energised and
+            focused throughout the day. Say goodbye to mid-afternoon slumps and hello to peak
+            performance.
+          </p>
+        </div>
+        <div class="pillar">
+          <p class="pillar__label">Be Healthier</p>
+          <h3>Improved employee health</h3>
+          <p>
+            Prolonged sitting has been linked to a host of health issues, including back pain,
+            obesity, and cardiovascular disease. Act_ive De_sk encourages a healthier, more
+            active lifestyle. Change the bad habit of sitting all day, and say goodbye to sick
+            days and work hours lost.
+          </p>
+        </div>
+        <div class="pillar">
+          <p class="pillar__label">Live Happier</p>
+          <h3>Satisfaction and retention</h3>
+          <p>
+            Investing in the well-being of your employees demonstrates your commitment to their
+            success and happiness. You'll create a positive work environment where your team
+            feels valued, supported, and motivated to perform at their best.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 07 — THE FOUR CHARACTERS -->
+  <section class="section section--sunk" id="desks">
+    <div class="shell shell--wide">
+      <div class="section__head reveal">
+        <p class="eyebrow">The range</p>
+        <h2 class="section__title">Four desks. Four characters.</h2>
+        <p class="section__lede">
+          The frame is the same serious piece of engineering across all four. What changes is
+          the desktop — and who you are.
+        </p>
+      </div>
+      <div class="tiers reveal-group">
+        <article class="tier">
+          <div class="tier__swatch" style="background:linear-gradient(135deg,#c98b94,#afc4ce 50%,#8b5e3c)"></div>
+          <p class="tier__sku">Active_01</p>
+          <h3 class="tier__name">The Expressive</h3>
+          <p class="tier__level">Entry level · 25mm MFC</p>
+          <p class="tier__desc">
+            A range of beautiful colour desk tops, for those people who love to express
+            themselves.
+          </p>
+        </article>
+        <article class="tier">
+          <div class="tier__swatch" style="background:linear-gradient(135deg,#b08954,#8a6839)"></div>
+          <p class="tier__sku">Active_02</p>
+          <h3 class="tier__name">The Naturalist</h3>
+          <p class="tier__level">Mid level · 25mm MFC wood</p>
+          <p class="tier__desc">
+            A range of beautiful wood desk tops, for those people who love nature's beauty.
+          </p>
+        </article>
+        <article class="tier">
+          <div class="tier__swatch" style="background:linear-gradient(135deg,#4a4a4c,#2b2b2c)"></div>
+          <p class="tier__sku">Active_03</p>
+          <h3 class="tier__name">The Smooth Operator</h3>
+          <p class="tier__level">High level · 19mm matt</p>
+          <p class="tier__desc">
+            A range of ultra smooth touch desk tops, for those cool cats and smooth criminals
+            out there.
+          </p>
+        </article>
+        <article class="tier">
+          <div class="tier__swatch" style="background:linear-gradient(135deg,#f2f1ed,#d9cdbb)"></div>
+          <p class="tier__sku">Active_04</p>
+          <h3 class="tier__name">The Perfectionist</h3>
+          <p class="tier__level">Premium · 6mm solid surface</p>
+          <p class="tier__desc">
+            A range of solid surface and real plywood desk tops, for those who strive for
+            perfection.
+          </p>
+        </article>
+      </div>
+      <p style="margin-top:2.5rem" class="reveal">
+        <a class="btn btn--ghost" href="/desks" data-event="tier_view">Compare all four</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ACT 08 — FINISH SELECTOR -->
+  <section class="section" id="finishes">
+    <div class="shell shell--wide">
+      <div class="section__head reveal">
+        <p class="eyebrow">Unmatched customisation</p>
+        <h2 class="section__title">Over 40 standard finishes. Design without boundaries.</h2>
+        <p class="section__lede">
+          Keep your colours flying. Choose a desktop below and the desk changes with you — then
+          switch the frame between white and black.
+        </p>
+      </div>
+      <div class="finish">
+        <div class="deskstage" data-finish-preview>
+          <div class="deskstage__floor"></div>
+          <div class="desk">
+            <div class="desk__top"></div>
+            <div class="desk__legs">
+              <div class="desk__leg">
+                <span class="desk__seg desk__seg--upper"></span>
+                <span class="desk__seg desk__seg--lower"></span>
+                <span class="desk__foot"></span>
+              </div>
+              <div class="desk__leg">
+                <span class="desk__seg desk__seg--upper"></span>
+                <span class="desk__seg desk__seg--lower"></span>
+                <span class="desk__foot"></span>
+              </div>
+            </div>
+            <div class="desk__shadow"></div>
           </div>
         </div>
         <div>
-          <h3 class="dp-section__title">The underscore is a system, not a logo quirk</h3>
-          <p class="dp-section__note">
-            It already runs into their SKUs — Active_01, Active_02, Active_03 — and into their
-            bylines: By_ James C Scott. The rebuild extends it to section numbers, list markers,
-            form-field underlines, hover states and loading indicators, so the brand reads as
-            having a grammar rather than a mark.
-          </p>
-          <p class="dp-section__note">
-            One signature moment per page, and this is the homepage's. Everything else on the
-            site is restraint.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">03 · Palette</p>
-        <h2 class="dp-section__title">Proposed, not sampled — and that distinction matters</h2>
-        <p class="dp-section__note">
-          The brand spec says do not invent a palette, so this is stated plainly:
-          <strong>none of these values came from their site.</strong> The domain is unreachable
-          from this build environment, and the original crawl could not extract hex codes or
-          font names either. The real route is James asking SicoCreative for the guidelines.
-          Until then this is a considered proposal in one block of tokens.
-        </p>
-      </div>
-      <div class="dp-swatches">
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#f5f1ea"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Bone</p>
-            <p class="dp-swatch__hex">#F5F1EA</p>
-            <p class="dp-swatch__role">Warm ground. Flatters the wood decors.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#fcfaf6"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Raised</p>
-            <p class="dp-swatch__hex">#FCFAF6</p>
-            <p class="dp-swatch__role">Cards and lifted surfaces.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#17150f"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Ink</p>
-            <p class="dp-swatch__hex">#17150F</p>
-            <p class="dp-swatch__role">Warm charcoal, not black.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#e8541d"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Signal</p>
-            <p class="dp-swatch__hex">#E8541D</p>
-            <p class="dp-swatch__role">One accent: the underscores, markers and every CTA.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#b08954"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Wood</p>
-            <p class="dp-swatch__hex">#B08954</p>
-            <p class="dp-swatch__role">Desktop reference tone.</p>
-          </div>
-        </div>
-        <div class="dp-swatch">
-          <div class="dp-swatch__chip" style="background:#6f6e6a"></div>
-          <div class="dp-swatch__body">
-            <p class="dp-swatch__name">Steel</p>
-            <p class="dp-swatch__hex">#6F6E6A</p>
-            <p class="dp-swatch__role">Powder-coated frame and legs.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">04 · Typography</p>
-        <h2 class="dp-section__title">Two families, both placeholders</h2>
-        <p class="dp-section__note">
-          Same caveat as the palette: proposed, pending SicoCreative's type specimens.
-        </p>
-      </div>
-      <div class="dp-type">
-        <div class="dp-type__card">
-          <p class="dp-type__label">Display · Archivo</p>
-          <p class="dp-type__sample-display">The Smooth Operator</p>
-          <p class="dp-type__why">
-            A confident grotesque with real width range. Set tight and heavy it gives the tier
-            names the authority they deserve — they are personality archetypes, not spec labels,
-            and they are the brand's most distinctive verbal asset.
-          </p>
-        </div>
-        <div class="dp-type__card">
-          <p class="dp-type__label">Body · Instrument Sans</p>
-          <p class="dp-type__sample-body">
-            The empathy for my stepfather's loss transformed into a burning force, and
-            Act_ive De_sk was born.
-          </p>
-          <p class="dp-type__why">
-            The founder story is long-form and carries real weight. The body face has to be
-            comfortable for sustained reading and quiet enough never to decorate a bereavement.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal" id="acts">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">05 · Homepage act map</p>
-        <h2 class="dp-section__title">Thirteen acts, one continuous scroll</h2>
-        <p class="dp-section__note">
-          Their existing copy carries most of this. The rebuild preserves every piece of
-          information the current site holds — this is a rebuild, not a reduction.
-        </p>
-      </div>
-      <div class="dp-acts">
-        <div class="dp-act">
-          <p class="dp-act__num">01</p>
-          <p class="dp-act__name">Hero</p>
-          <p class="dp-act__desc">Wordmark with the animated underscores, the master tagline, the positioning line, dual CTA. Desk at sitting height.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">02</p>
-          <p class="dp-act__name">The Rise</p>
-          <p class="dp-act__desc">The signature moment. Pinned scroll-scrub: desk rises, underscores rise in sync, copy stages through sit, transition, stand.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">03</p>
-          <p class="dp-act__name">The sitting epidemic</p>
-          <p class="dp-act__desc">Their strongest existing copy. The BMJ and Get A Move On figures used with their attributions named — never a health statistic without its source.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">04</p>
-          <p class="dp-act__name">Founder moment</p>
-          <p class="dp-act__desc">The stepfather teaser, understated and human, linking through to the full story. Their single differentiator against faceless competitors.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">05</p>
-          <p class="dp-act__name">Static desks</p>
-          <p class="dp-act__desc">The affordability argument, made visually with a comparison block rather than asserted in prose.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">06</p>
-          <p class="dp-act__name">The three pillars</p>
-          <p class="dp-act__desc">Work Smarter, Be Healthier, Live Happier — one scroll act each. These map onto the tagline and are the site's spine.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">07</p>
-          <p class="dp-act__name">The four characters</p>
-          <p class="dp-act__desc">Active_01 The Expressive, Active_02 The Naturalist, Active_03 The Smooth Operator, Active_04 The Perfectionist. Sticky cards, personality copy intact.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">08</p>
-          <p class="dp-act__name">The finish selector</p>
-          <p class="dp-act__desc">Their most wasted asset. Forty-plus finishes claimed, none shown. Ten decors are known by name, so this gets built for real.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">09</p>
-          <p class="dp-act__name">Credentials</p>
-          <p class="dp-act__desc">Animated count-ups: two decades, 15,000 hours, £15m specified, a thousand projects, founded 2021. Currently buried in prose.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">10</p>
-          <p class="dp-act__name">Proof</p>
-          <p class="dp-act__desc">All four testimonials, verbatim. Company names, logos and headshots requested from James to close the credibility gap.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">11</p>
-          <p class="dp-act__name">Commercial hooks</p>
-          <p class="dp-act__desc">Free two-week trial desk, the 21-day delivery-and-install guarantee, free space planning. Genuinely strong offers currently buried on an inner page.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">12</p>
-          <p class="dp-act__name">Close</p>
-          <p class="dp-act__desc">Ready to create a more productive workplace — dealer and business enquiry.</p>
-        </div>
-        <div class="dp-act">
-          <p class="dp-act__num">13</p>
-          <p class="dp-act__name">Footer</p>
-          <p class="dp-act__desc">New, and legally required. Company number, registered office, privacy, terms, cookies, Instagram and LinkedIn, contact, copyright.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dp-section reveal">
-    <div class="shell">
-      <div class="dp-section__head">
-        <p class="eyebrow">06 · Working rules</p>
-        <h2 class="dp-section__title">The constraints this build holds to</h2>
-      </div>
-      <div class="dp-cards">
-        <div class="dp-card">
-          <h3>Nothing invented</h3>
-          <p>
-            No prices — they publish none anywhere. No specs beyond the recovered set. No
-            testimonials beyond the four verbatim ones. No new health claims. Every gap is a
-            labelled placeholder tracked in the swap list, which doubles as the questionnaire
-            for James.
-          </p>
-        </div>
-        <div class="dp-card">
-          <h3>The founder story, handled with care</h3>
-          <p>
-            It records a real bereavement. The emotional architecture — loss, investigation,
-            mechanism, epiphany, mission, tribute — is preserved exactly, because the mechanism
-            step is what makes it land rather than being mere sentiment. His personal
-            photographs are never substituted. No design flourish trivialises it.
-          </p>
-        </div>
-        <div class="dp-card">
-          <h3>Motion discipline</h3>
-          <ul>
-            <li>One signature moment per page.</li>
-            <li>No scroll-jacking, ever.</li>
-            <li>Complete and handsome with motion disabled.</li>
-            <li>Mobile motion reduced aggressively, tested at 375px.</li>
-            <li>Every animation earns its place or it is cut.</li>
+          <h3 class="visually-hidden">Choose a desktop finish</h3>
+          <ul class="finish__swatches" data-swatches>
+            <li><button class="swatch" type="button" aria-pressed="true" data-colour="#1c1c1c" data-deep="#0f0f0f" data-name="Black" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#1c1c1c"></span><span class="swatch__name">Black</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#8b5e3c" data-deep="#6d4830" data-name="Toffee" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#8b5e3c"></span><span class="swatch__name">Toffee</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#c98b94" data-deep="#a96f78" data-name="Rose" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#c98b94"></span><span class="swatch__name">Rose</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#9a9a99" data-deep="#7c7c7b" data-name="Grey" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#9a9a99"></span><span class="swatch__name">Grey</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#afc4ce" data-deep="#8fa7b2" data-name="Ice Blue" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#afc4ce"></span><span class="swatch__name">Ice Blue</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#f2f1ed" data-deep="#dedbd4" data-name="White" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#f2f1ed"></span><span class="swatch__name">White</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#d9cdbb" data-deep="#bfb19d" data-name="Cashmere" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#d9cdbb"></span><span class="swatch__name">Cashmere</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#4a4a4c" data-deep="#343436" data-name="Dark Grey" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#4a4a4c"></span><span class="swatch__name">Dark Grey</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#6e7267" data-deep="#565a51" data-name="Field Grey" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#6e7267"></span><span class="swatch__name">Field Grey</span></button></li>
+            <li><button class="swatch" type="button" aria-pressed="false" data-colour="#7c7b78" data-deep="#615f5d" data-name="Granite Grey" data-tier="Active_01 · The Expressive"><span class="swatch__chip" style="background:#7c7b78"></span><span class="swatch__name">Granite Grey</span></button></li>
           </ul>
-        </div>
-        <div class="dp-card">
-          <h3>Defects fixed, not reproduced</h3>
-          <p>
-            The live site's typos, truncated paragraphs, double-dot ellipses, mixed spellings
-            and inconsistent brand casing are corrected in the rebuild. The full list is in the
-            swap list. One of them is sensitive and is flagged there to be raised with James in
-            person rather than in writing.
+          <div class="finish__meta">
+            <p class="finish__name" data-finish-name aria-live="polite">Black</p>
+            <p class="finish__tier" data-finish-tier>Active_01 · The Expressive</p>
+          </div>
+          <div class="frame-toggle">
+            <span class="frame-toggle__label">Frame</span>
+            <button class="frame-btn" type="button" aria-pressed="true" data-frame="#6f6e6a">White</button>
+            <button class="frame-btn" type="button" aria-pressed="false" data-frame="#2a2a29">Black</button>
+          </div>
+          <p style="margin-top:1.75rem;color:var(--ink-mute);font-size:var(--step--1)">
+            Ten decors shown from The Expressive. The remaining finishes across the four tiers
+            are added as the decor library is supplied.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 09 — CREDENTIALS -->
+  <section class="section section--ink">
+    <div class="shell">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">Behind the desks</p>
+        <h2 class="section__title">Founded in 2021. Backed by two decades of workplace design.</h2>
+      </div>
+      <div class="stats reveal-group">
+        <div class="stat">
+          <p class="stat__num" data-count="2" data-suffix="">0</p>
+          <p class="stat__label">decades designing award-winning workplaces</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num" data-count="15000" data-suffix="">0</p>
+          <p class="stat__label">hours space planning</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num" data-count="15" data-prefix="£" data-suffix="m">0</p>
+          <p class="stat__label">worth of furniture specified and designed</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num" data-count="1000" data-suffix="+">0</p>
+          <p class="stat__label">commercial projects undertaken</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 10 — PROOF -->
+  <section class="section">
+    <div class="shell">
+      <div class="section__head reveal">
+        <p class="eyebrow">Proof</p>
+        <h2 class="section__title">What people say once the desks are in.</h2>
+      </div>
+      <div class="quotes reveal-group">
+        <figure class="quote">
+          <blockquote>"Excellent value, great design, speed of installation and immediate positive impact!"</blockquote>
+          <figcaption>Will Lewis</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>"We were surprised by the increased energy levels and productivity! Increased collaboration by people being on their feet more, and the cost and quality was amazing!"</blockquote>
+          <figcaption>Phil Thompson</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>"The end result was amazing and my entire team have commented favourably on their look, quiet movement and modern look and feel our office now has. I myself was on the fence, but I wouldn't hesitate now!"</blockquote>
+          <figcaption>Derek Knowles<span>Operations Director</span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>"Act_ive De_sk has truly transformed our office environment! Their electric stand-up desks are not only of exceptional quality but also offered at a competitive price!"</blockquote>
+          <figcaption>Cameron Watson</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 11 — COMMERCIAL HOOKS -->
+  <section class="section section--sunk">
+    <div class="shell">
+      <div class="section__head reveal">
+        <p class="eyebrow">How we work with you</p>
+        <h2 class="section__title">Try it first. Then hold us to the date.</h2>
+      </div>
+      <div class="offers reveal-group">
+        <div class="offer">
+          <p class="offer__tag">No obligation</p>
+          <h3>Claim your free trial desk</h3>
+          <p>
+            A two-week loan period, with no obligation to purchase. Put a desk in front of the
+            people who will actually use it.
+          </p>
+          <p><a class="btn btn--ghost" href="/contact#trial" data-event="trial_request">Request a trial desk</a></p>
+        </div>
+        <div class="offer">
+          <p class="offer__tag">Guaranteed</p>
+          <h3>21 days delivery and install</h3>
+          <p>
+            Delivered and installed within 21 days, guaranteed — and the guarantee carries a
+            penalty clause in your favour if we miss it.
+          </p>
+        </div>
+        <div class="offer">
+          <p class="offer__tag">At no cost</p>
+          <h3>Space planning and design</h3>
+          <p>
+            Free building appraisal, free space planning, and a free design service to match
+            desk finishes to your brand.
+          </p>
+          <p><a class="btn btn--ghost" href="/contact#samples" data-event="sample_request">Request samples</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 12 — CLOSE -->
+  <section class="section section--ink">
+    <div class="shell close reveal">
+      <p class="eyebrow eyebrow--light" style="justify-content:center">Get started</p>
+      <h2 class="close__title">
+        Ready to create a more productive workplace, a healthier, happier team, and business
+        growth?
+      </h2>
+      <div class="close__actions">
+        <a class="btn btn--light" href="/contact#dealer" data-event="dealer_enquiry">Enquire To Become A Dealer</a>
+        <a class="btn btn--ghost-light" href="/contact">Talk to us about your workplace</a>
       </div>
     </div>
   </section>
 
 </main>
 
-<footer class="dp-footer">
-  <div class="shell dp-footer__inner">
-    <p>Act_ive De_sk rebuild · studioPalmes &copy; <span data-year>2026</span></p>
-    <p>Internal preview — not indexed</p>
+<footer class="footer">
+  <div class="shell shell--wide">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="wordmark">
+          Act<span class="wordmark__rule" aria-hidden="true"></span>ive
+          De<span class="wordmark__rule" aria-hidden="true"></span>sk
+        </span>
+        <p class="footer__tag">Work Smarter. Be Healthier. Live Happier.</p>
+      </div>
+      <div>
+        <h2>Desks</h2>
+        <ul>
+          <li><a href="/desks">The range</a></li>
+          <li><a href="/#finishes">Finishes</a></li>
+          <li><a href="/contact#samples">Request samples</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="/story">Our story</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact#dealer">Become a dealer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Follow</h2>
+        <ul>
+          <li><a href="https://www.instagram.com/activedesk.co.uk/" rel="noopener">Instagram</a></li>
+          <li><a href="https://uk.linkedin.com/company/active-desk-ltd" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p class="footer__reg">
+        Act_ive De_sk® is a registered trademark of ACTIVEDESK LIMITED, a company registered in
+        England and Wales, company number 13461733. Registered office: Penny Lane Business
+        Centre, 374 Smithdown Road, Liverpool, L15 5AN.
+      </p>
+      <ul style="display:flex;flex-wrap:wrap;gap:0.75rem 1.5rem;list-style:none;margin:0;padding:0">
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/cookies">Cookies</a></li>
+        <li>&copy; <span data-year>2026</span> ACTIVEDESK LIMITED</li>
+      </ul>
+    </div>
   </div>
 </footer>
 

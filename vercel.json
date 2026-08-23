@@ -1,4 +1,16 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/sit-stand-desk-for-business", "destination": "/desks", "permanent": true },
+    { "source": "/sit-stand-desk-architects-designers", "destination": "/desks", "permanent": true },
+    { "source": "/the-expressive-sit-stand-desk", "destination": "/desks", "permanent": true },
+    { "source": "/the-naturalist-sit-stand-desk", "destination": "/desks", "permanent": true },
+    { "source": "/the-smooth-operator-sit-stand-desk", "destination": "/desks", "permanent": true },
+    { "source": "/the-perfectionist-sit-stand-desk", "destination": "/desks", "permanent": true },
+    { "source": "/founder-story", "destination": "/story", "permanent": true },
+    { "source": "/about-us", "destination": "/story", "permanent": true },
+    { "source": "/dealer-registration", "destination": "/contact", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact", "permanent": true }
+  ]
 }
