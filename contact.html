@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact | Act_ive De_sk®</title>
-<meta name="description" content="Talk to us about your workplace, request a free trial desk, order samples, or enquire about becoming an Act_ive De_sk dealer.">
+<meta name="description" content="Talk to us about your workplace, request a free trial desk or samples, or enquire about becoming an Act_ive De_sk dealer.">
 <meta name="robots" content="noindex, nofollow">
 <meta property="og:title" content="Contact | Act_ive De_sk®">
-<meta property="og:description" content="Talk to us about your workplace, request a free trial desk, order samples, or enquire about becoming an Act_ive De_sk dealer.">
+<meta property="og:description" content="Talk to us about your workplace, request a free trial desk or samples, or enquire about becoming an Act_ive De_sk dealer.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#f5f1ea">
+<meta property="og:locale" content="en_GB">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,170 +20,134 @@
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <div class="progress" data-progress aria-hidden="true"></div>
-<header class="nav is-scrolled" data-nav>
+<header class="nav is-solid" data-nav>
   <div class="shell shell--wide nav__inner">
-    <a class="wordmark" href="/" aria-label="Act_ive De_sk home">
-      Act<span class="wordmark__rule" aria-hidden="true"></span>ive
-      De<span class="wordmark__rule" aria-hidden="true"></span>sk
-    </a>
-    <nav class="nav__links" aria-label="Primary">
-      <a class="nav__link" href="/desks">The Desks</a>
-      <a class="nav__link" href="/#finishes">Finishes</a>
-      <a class="nav__link" href="/story">Our Story</a>
-      <a class="nav__link" href="/contact">Contact</a>
-    </nav>
-    <a class="btn btn--primary nav__cta" href="/contact#dealer" data-event="dealer_enquiry">Become a Dealer</a>
+    <a class="wordmark" href="/" aria-label="Act_ive De_sk home">Act<span class="wordmark__rule" aria-hidden="true"></span>ive De<span class="wordmark__rule" aria-hidden="true"></span>sk</a>
+    <nav class="nav__links" aria-label="Primary"><a class="nav__link" href="/products">Products</a><a class="nav__link" href="/stories">Stories</a><a class="nav__link" href="/sustainability">Sustainability</a><a class="nav__link" href="/story">Our Story</a><a class="nav__link" href="/contact" aria-current="page">Contact</a></nav>
+    <div class="nav__actions">
+      <a class="btn btn--sm nav__cta" href="/contact#dealer" data-event="dealer_enquiry">Become a dealer</a>
+      <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="drawer" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
-<main id="main" style="padding-top:6rem">
-  <section class="section">
-    <div class="shell">
-      <div class="section__head reveal">
-        <p class="eyebrow">Get in touch</p>
-        <h1 class="section__title">Let's talk about your workplace.</h1>
-        <p class="section__lede">
-          Whether you're fitting out one floor or looking to stock Act_ive De_sk, start here.
-          We'll come back to you with a person, not an autoresponder.
-        </p>
-      </div>
-      <div class="split">
-        <form class="reveal" data-enquiry novalidate>
-          <div style="display:grid;gap:1.25rem">
-            <p>
-              <label for="name" style="display:block;font-weight:600;margin-bottom:0.4rem">Name <span aria-hidden="true">*</span></label>
-              <input id="name" name="name" type="text" required autocomplete="name" style="width:100%;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit">
-            </p>
-            <p>
-              <label for="email" style="display:block;font-weight:600;margin-bottom:0.4rem">Email <span aria-hidden="true">*</span></label>
-              <input id="email" name="email" type="email" required autocomplete="email" style="width:100%;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit">
-            </p>
-            <p>
-              <label for="company" style="display:block;font-weight:600;margin-bottom:0.4rem">Company</label>
-              <input id="company" name="company" type="text" autocomplete="organization" style="width:100%;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit">
-            </p>
-            <p>
-              <label for="enquiry" style="display:block;font-weight:600;margin-bottom:0.4rem">What can we help with?</label>
-              <select id="enquiry" name="enquiry" style="width:100%;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit">
-                <option>Desks for our workplace</option>
-                <option>Free trial desk (2 week loan)</option>
-                <option>Finish samples</option>
-                <option>Becoming a dealer</option>
-                <option>Space planning or design service</option>
-                <option>Something else</option>
-              </select>
-            </p>
-            <p>
-              <label for="message" style="display:block;font-weight:600;margin-bottom:0.4rem">Message</label>
-              <textarea id="message" name="message" rows="5" style="width:100%;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit"></textarea>
-            </p>
-            <p style="position:absolute;left:-9999px" aria-hidden="true">
-              <label for="company-url">Leave this field empty</label>
-              <input id="company-url" name="company-url" type="text" tabindex="-1" autocomplete="off">
-            </p>
-            <p><button class="btn btn--primary" type="submit" data-event="enquiry_submit">Send enquiry</button></p>
-            <p data-form-status role="status" aria-live="polite" style="min-height:1.5rem"></p>
-          </div>
-        </form>
-        <div class="prose reveal">
-          <h2 style="font-size:var(--step-1)">Prefer to email?</h2>
-          <p>
-            <a href="mailto:hello@activedesk.co.uk" style="font-weight:600">hello@activedesk.co.uk</a>
-            <br><span style="color:var(--ink-mute);font-size:var(--step--1)">Address to be confirmed with Act_ive De_sk before launch.</span>
-          </p>
-          <h2 style="font-size:var(--step-1);margin-top:2rem" id="trial">Free trial desk</h2>
-          <p>Two-week loan period, no obligation to purchase. Tell us how many people you'd like to trial with and we'll arrange it.</p>
-          <h2 style="font-size:var(--step-1);margin-top:2rem" id="samples">Samples</h2>
-          <p>Finish samples from any of the four tiers, sent out so you can see and feel the decor before you specify it.</p>
-          <h2 style="font-size:var(--step-1);margin-top:2rem">Registered office</h2>
-          <p style="color:var(--ink-soft)">
-            ACTIVEDESK LIMITED<br>
-            Penny Lane Business Centre<br>
-            374 Smithdown Road<br>
-            Liverpool L15 5AN<br>
-            Company number 13461733
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="drawer" id="drawer" data-drawer>
+  <a href="/products">Products</a>
+  <div class="drawer__sub"><a href="/products/the-expressive">A_1 · The Expressive</a><a href="/products/the-naturalist">A_2 · The Naturalist</a><a href="/products/the-smooth-operator">A_3 · The Smooth Operator</a><a href="/products/the-perfectionist">A_4 · The Perfectionist</a></div>
+  <a href="/stories">Stories</a><a href="/sustainability">Sustainability</a><a href="/story">Our Story</a><a href="/contact">Contact</a>
+  <div class="drawer__foot"><a class="btn" href="/contact#dealer">Become a dealer</a></div>
+</div>
+<main id="main">
+<section class="pagehead">
+  <div class="shell shell--wide">
+    <p class="eyebrow">Contact</p>
+    <h1 class="pagehead__title">Let's talk about your workplace.</h1>
+    <p class="pagehead__lede">Whether you are fitting out one floor or looking to stock Act_ive De_sk,
+      start here. You will get a person, not an autoresponder.</p>
+  </div>
+</section>
 
-  <section class="section section--ink" id="dealer">
-    <div class="shell">
-      <div class="section__head reveal">
-        <p class="eyebrow eyebrow--light">Trade</p>
-        <h2 class="section__title">Stock Act_ive De_sk.</h2>
-        <p class="section__lede" style="color:rgba(245,241,234,0.76)">
-          We deliver through our dealer network and corporate clients, with unbeatable prices,
-          unmatched customisation, short delivery and install lead times, and workplace
-          consultancy alongside.
-        </p>
+<section class="section section--tight">
+  <div class="shell shell--wide split">
+    <form class="reveal" data-enquiry novalidate>
+      <div class="form-grid form-grid--2">
+        <p class="field"><label for="name">Name *</label>
+          <input id="name" name="name" type="text" required autocomplete="name"></p>
+        <p class="field"><label for="email">Email *</label>
+          <input id="email" name="email" type="email" required autocomplete="email"></p>
+        <p class="field"><label for="company">Company</label>
+          <input id="company" name="company" type="text" autocomplete="organization"></p>
+        <p class="field"><label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel"></p>
+        <p class="field field--full"><label for="enquiry">What can we help with?</label>
+          <select id="enquiry" name="enquiry">
+            <option>Desks for our workplace</option>
+            <option>Free trial desk (2 week loan)</option>
+            <option>Finish samples</option>
+            <option>Becoming a dealer</option>
+            <option>Space planning or design service</option>
+            <option>Something else</option>
+          </select></p>
+        <p class="field field--full"><label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea></p>
+        <p class="field field--full" style="position:absolute;left:-9999px" aria-hidden="true">
+          <label for="company-url">Leave empty</label>
+          <input id="company-url" name="company-url" type="text" tabindex="-1" autocomplete="off"></p>
+        <p class="field--full"><button class="btn" type="submit" data-event="enquiry_submit">Send enquiry</button></p>
+        <p class="field--full form-status" data-form-status role="status" aria-live="polite"></p>
       </div>
-      <div class="close__actions" style="justify-content:flex-start">
-        <a class="btn btn--light" href="mailto:hello@activedesk.co.uk?subject=Dealer%20enquiry" data-event="dealer_enquiry">Enquire to become a dealer</a>
-      </div>
+    </form>
+    <div class="prose reveal">
+      <h2 style="font-size:var(--step-1)">Prefer to email?</h2>
+      <p><a href="mailto:hello@activedesk.co.uk" style="font-weight:600">hello@activedesk.co.uk</a><br>
+        <span style="font-size:var(--step--2);color:var(--ink-3)">Address to be confirmed before launch.</span></p>
+      <h2 style="font-size:var(--step-1);margin-top:2rem" id="trial">Free trial desk</h2>
+      <p>A two-week loan period with no obligation to purchase. Tell us how many people you would
+        like to trial with and we will arrange it.</p>
+      <h2 style="font-size:var(--step-1);margin-top:2rem" id="samples">Samples</h2>
+      <p>Finish samples from any of the four desks, sent out so you can see and feel the decor before
+        you specify it.</p>
+      <h2 style="font-size:var(--step-1);margin-top:2rem">Registered office</h2>
+      <p style="color:var(--ink-2)">ACTIVEDESK LIMITED<br>Penny Lane Business Centre<br>
+        374 Smithdown Road<br>Liverpool L15 5AN<br>Company number 13461733</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section section--sunk">
-    <div class="shell">
-      <div class="section__head reveal" style="max-width:var(--measure)">
-        <p class="eyebrow">Newsletter</p>
-        <h2 class="section__title" style="font-size:var(--step-2)">Keep in touch.</h2>
-        <p class="section__lede">
-          Occasional updates on new finishes, products and workplace health. By signing up you
-          are agreeing to be contacted by Act_ive De_sk.
-        </p>
-      </div>
-      <form class="reveal" data-newsletter novalidate style="display:flex;flex-wrap:wrap;gap:0.75rem;max-width:32rem">
-        <label class="visually-hidden" for="newsletter-email">Email address</label>
-        <input id="newsletter-email" name="email" type="email" required placeholder="you@company.co.uk" style="flex:1 1 16rem;padding:0.85rem 1rem;border:1px solid rgba(23,21,15,0.26);border-radius:var(--radius);background:var(--paper-raised);font:inherit;color:inherit">
-        <button class="btn btn--primary" type="submit">Sign up</button>
-        <p data-form-status role="status" aria-live="polite" style="flex:1 1 100%;min-height:1.5rem"></p>
-      </form>
+<section class="section section--ink" id="dealer">
+  <div class="shell">
+    <div class="section__head reveal"><p class="eyebrow">Trade</p>
+      <h2 class="section__title">Stock Act_ive De_sk.</h2>
+      <p class="section__lede">We deliver through our dealer network and corporate clients, with
+        unbeatable prices, unmatched customisation, short delivery and install lead times, and
+        workplace consultancy alongside.</p>
+      <p style="margin-top:2rem"><a class="btn btn--invert" href="mailto:hello@activedesk.co.uk?subject=Dealer%20enquiry" data-event="dealer_enquiry">Enquire to become a dealer</a></p>
     </div>
-  </section>
+  </div>
+</section>
+
+<section class="section section--ash">
+  <div class="shell shell--narrow">
+    <div class="section__head reveal"><p class="eyebrow">Newsletter</p>
+      <h2 class="section__title" style="font-size:var(--step-2)">Keep in touch.</h2>
+      <p class="section__lede">Occasional updates on new finishes, products and workplace health. By
+        signing up you are agreeing to be contacted by Act_ive De_sk.</p></div>
+    <form class="reveal" data-newsletter novalidate style="display:flex;flex-wrap:wrap;gap:0.75rem">
+      <label class="vh" for="newsletter-email">Email address</label>
+      <input id="newsletter-email" name="email" type="email" required placeholder="you@company.co.uk"
+        style="flex:1 1 16rem;padding:0.85rem 1rem;border:1px solid var(--line-strong);border-radius:var(--radius);font:inherit">
+      <button class="btn" type="submit">Sign up</button>
+      <p class="form-status" data-form-status role="status" aria-live="polite" style="flex:1 1 100%"></p>
+    </form>
+  </div>
+</section>
 </main>
 <footer class="footer">
   <div class="shell shell--wide">
     <div class="footer__grid">
       <div class="footer__brand">
-        <span class="wordmark">
-          Act<span class="wordmark__rule" aria-hidden="true"></span>ive
-          De<span class="wordmark__rule" aria-hidden="true"></span>sk
-        </span>
-        <p class="footer__tag">Work Smarter. Be Healthier. Live Happier.</p>
+        <span class="wordmark ">Act<span class="wordmark__rule" aria-hidden="true"></span>ive De<span class="wordmark__rule" aria-hidden="true"></span>sk</span>
+        <p style="margin-top:1rem;max-width:24ch">Work Smarter. Be Healthier. Live Happier.</p>
       </div>
-      <div>
-        <h2>Desks</h2>
-        <ul>
-          <li><a href="/desks">The range</a></li>
-          <li><a href="/#finishes">Finishes</a></li>
-          <li><a href="/contact#samples">Request samples</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Company</h2>
-        <ul>
-          <li><a href="/story">Our story</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/contact#dealer">Become a dealer</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Follow</h2>
-        <ul>
-          <li><a href="https://www.instagram.com/activedesk.co.uk/" rel="noopener">Instagram</a></li>
-          <li><a href="https://uk.linkedin.com/company/active-desk-ltd" rel="noopener">LinkedIn</a></li>
-        </ul>
-      </div>
+      <div><h2>Products</h2><ul><li><a href="/products/the-expressive">The Expressive</a></li><li><a href="/products/the-naturalist">The Naturalist</a></li><li><a href="/products/the-smooth-operator">The Smooth Operator</a></li><li><a href="/products/the-perfectionist">The Perfectionist</a></li><li><a href="/products">Compare all four</a></li></ul></div>
+      <div><h2>Company</h2><ul>
+        <li><a href="/stories">Stories</a></li>
+        <li><a href="/sustainability">Sustainability</a></li>
+        <li><a href="/story">Our story</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul></div>
+      <div><h2>Connect</h2><ul>
+        <li><a href="mailto:hello@activedesk.co.uk">hello@activedesk.co.uk</a></li>
+        <li><a href="https://www.instagram.com/activedesk.co.uk/" rel="noopener">Instagram</a></li>
+        <li><a href="https://uk.linkedin.com/company/active-desk-ltd" rel="noopener">LinkedIn</a></li>
+        <li><a href="/contact#dealer">Become a dealer</a></li>
+      </ul></div>
     </div>
     <div class="footer__legal">
-      <p class="footer__reg">
-        Act_ive De_sk® is a registered trademark of ACTIVEDESK LIMITED, a company registered in
-        England and Wales, company number 13461733. Registered office: Penny Lane Business
-        Centre, 374 Smithdown Road, Liverpool, L15 5AN.
-      </p>
-      <ul style="display:flex;flex-wrap:wrap;gap:0.75rem 1.5rem;list-style:none;margin:0;padding:0">
+      <p class="footer__reg">Act_ive De_sk® is a registered trademark of ACTIVEDESK LIMITED, a company
+        registered in England and Wales, company number 13461733. Registered office: Penny Lane Business Centre, 374 Smithdown Road, Liverpool, L15 5AN.</p>
+      <ul class="footer__links">
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="/terms">Terms</a></li>
         <li><a href="/cookies">Cookies</a></li>

@@ -2,15 +2,19 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/sit-stand-desk-for-business", "destination": "/desks", "permanent": true },
-    { "source": "/sit-stand-desk-architects-designers", "destination": "/desks", "permanent": true },
-    { "source": "/the-expressive-sit-stand-desk", "destination": "/desks", "permanent": true },
-    { "source": "/the-naturalist-sit-stand-desk", "destination": "/desks", "permanent": true },
-    { "source": "/the-smooth-operator-sit-stand-desk", "destination": "/desks", "permanent": true },
-    { "source": "/the-perfectionist-sit-stand-desk", "destination": "/desks", "permanent": true },
+    { "source": "/desks", "destination": "/products", "permanent": true },
+    { "source": "/sit-stand-desk-for-business", "destination": "/products", "permanent": true },
+    { "source": "/sit-stand-desk-architects-designers", "destination": "/products", "permanent": true },
+    { "source": "/the-expressive-sit-stand-desk", "destination": "/products/the-expressive", "permanent": true },
+    { "source": "/the-naturalist-sit-stand-desk", "destination": "/products/the-naturalist", "permanent": true },
+    { "source": "/the-smooth-operator-sit-stand-desk", "destination": "/products/the-smooth-operator", "permanent": true },
+    { "source": "/the-perfectionist-sit-stand-desk", "destination": "/products/the-perfectionist", "permanent": true },
     { "source": "/founder-story", "destination": "/story", "permanent": true },
     { "source": "/about-us", "destination": "/story", "permanent": true },
     { "source": "/dealer-registration", "destination": "/contact", "permanent": true },
     { "source": "/contact-us", "destination": "/contact", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
   ]
 }

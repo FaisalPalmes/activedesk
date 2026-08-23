@@ -37,6 +37,7 @@
   var progress = document.querySelector('[data-progress]');
   var riseTrack = document.querySelector('[data-rise-track]');
   var stages = document.querySelectorAll('[data-rise-stages] .rise__stage');
+  var heightOut = document.querySelector('[data-height]');
   var ticking = false;
   var currentStage = -1;
 
@@ -63,6 +64,11 @@
 
       root.style.setProperty('--p', p.toFixed(4));
       document.body.classList.toggle('is-rising', active);
+
+      if (heightOut) {
+        heightOut.lastChild.nodeValue =
+          Math.round(580 + (1230 - 580) * p).toLocaleString('en-GB') + 'mm';
+      }
 
       // Copy stages: sit → transition → stand
       var index = p < 0.33 ? 0 : p < 0.72 ? 1 : 2;
@@ -92,6 +98,38 @@
   if (!isDesktopRise()) {
     root.style.setProperty('--p', '1');
     Array.prototype.forEach.call(stages, function (stage) { stage.classList.add('is-current'); });
+  }
+
+  /* ---------- Mobile drawer ---------------------------------------------- */
+  var menuBtn = document.querySelector('[data-menu]');
+  var drawer = document.querySelector('[data-drawer]');
+
+  if (menuBtn && drawer) {
+    var setMenu = function (open) {
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      drawer.classList.toggle('is-open', open);
+      document.body.classList.toggle('is-locked', open);
+    };
+
+    menuBtn.addEventListener('click', function () {
+      setMenu(menuBtn.getAttribute('aria-expanded') !== 'true');
+    });
+
+    // Any navigation closes it, as does Escape or growing past the breakpoint.
+    drawer.addEventListener('click', function (event) {
+      if (event.target.closest('a')) setMenu(false);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') {
+        setMenu(false);
+        menuBtn.focus();
+      }
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.matchMedia('(min-width: 64rem)').matches) setMenu(false);
+    }, { passive: true });
   }
 
   /* ---------- Count-ups -------------------------------------------------- */

@@ -1,141 +1,121 @@
 # SWAP_LIST — Act_ive De_sk rebuild
 
 Every placeholder, unverified figure and piece of content needed from the client.
-Doubles as the client questionnaire. Maintained throughout the build.
-
-Status key: **BLOCKING** (build cannot proceed without it) · **PLACEHOLDER** (styled slot
-ships, swap later) · **DECISION** (a choice, not a missing fact).
+Doubles as the client questionnaire.
 
 ---
 
-## A. To request from James — priority order
+## RESOLVED by the four product brochures (23 Aug)
 
-### A1. Brand assets — BLOCKING for final visual sign-off
-| Item | Why it matters | Source |
+The brochures closed most of the old spec gaps. Now published on the site as fact:
+
+- **Full frame specification**, identical across all four desks: height 580–1230mm, width
+  adjustment 1200–2000mm, arm length 585mm, dual motor electric, 38mm/s, &lt;50dB, 125kg load,
+  anti-collision, 10,000 cycles at full rated load, steel powder-coated, white and black,
+  AC 100–240V 50/60Hz 450VA in / 23V 13A out, BS EN 527-1, **10-year warranty**.
+- **The width vs height conflict is settled**: 580–1230mm is height, 1200–2000mm is width.
+- **Rated life** is 10,000 cycles and a 10-year warranty (the "7 years" in the earlier audit
+  does not appear in any brochure).
+- **SKU codes are A_1, A_2, A_3, A_4** — not Active_01–04 as the old page titles suggested.
+  The site now uses the brochure codes. *Confirm which James wants used publicly.*
+- **All four decor lists**, verbatim: Expressive 10, Naturalist 10, Smooth Operator 10,
+  Perfectionist 8.
+- **Desktop constructions** per tier, and the features/benefits lists.
+- **Controller**: digital height display, stand-up reminder, 3 programmable presets,
+  anti-collision. Lifting columns from one of the world's top three manufacturers.
+
+Two brochure typos were corrected on the site: "FEILD GREY" → Field Grey, "GRANIT GREY" →
+Granite Grey, "NABRASKA OAK" → Nebraska Oak. **Confirm these are typos and not the supplier's
+actual decor names.**
+
+## Imagery now in the build
+
+28 images extracted from the brochures and the Naturalist gallery: lifestyle photography for
+all four desks, frame renders (single white, back-to-back black), controller close-ups, the
+decor grids, and six gallery shots. All optimised, 2.4MB total.
+
+---
+
+## STILL NEEDED — priority order
+
+### 1. Client logos and stories — BLOCKING the trust sections
+The homepage carries a "Specified and installed for" logo marquee and the Stories page carries
+a client grid. Only **OBI** is real; everything else is a visible placeholder.
+- Logo files (SVG or high-resolution PNG) plus permission to display each
+- The client list — who else has bought or worked with Act_ive De_sk
+- For each story: the brief, what was specified, quantities, the outcome, and a signed-off quote
+- Installation photography
+
+### 2. The OBI story
+`/stories/obi` is built and laid out, with the narrative marked as to-be-written. It needs the
+brief, the specification, the result and a client quote.
+
+### 3. Testimonial attribution
+All four testimonials are verbatim and live. Still missing: company names for Will Lewis, Phil
+Thompson and Cameron Watson; company logos; headshots.
+
+### 4. Brand assets from SicoCreative
+The site is monochrome per the client's brand. Still worth requesting:
+- The logo master (SVG) — the wordmark is currently set in type
+- Confirmed typefaces (currently Archivo / Instrument Sans as stand-ins)
+- The logo animation reference, to match the underscore timing exactly
+
+### 5. Commercial and legal
+- Public contact email — `hello@activedesk.co.uk` is assumed and must be confirmed
+- Phone number
+- VAT number
+- Exact penalty-clause wording for the 21-day guarantee
+- Returns policy
+- Approval of the privacy, terms and cookie wording before launch
+- Decision: publish indicative pricing?
+
+### 6. Remaining content
+- The seven body paragraphs from the old business page
+- Sustainability: the recycling programme detail, and any certification that can be evidenced
+- More product photography for The Expressive, Smooth Operator and Perfectionist galleries
+
+---
+
+## Decisions for Faisal
+
+| # | Decision | Notes |
 |---|---|---|
-| Palette hex values | The build currently uses a proposed palette. Nothing in the identity was sampled — no CSS access. | SicoCreative |
-| Font files / names + licences | Same. Display and body faces are currently proposed. | SicoCreative |
-| Logo animation files | The underscores animate alternately in the real logo. Rebuilding it properly needs the timing/easing reference. | SicoCreative |
-| Logo master (SVG preferred) | Wordmark is currently set in type, not their real mark. | SicoCreative |
-| Photography library | Product shots, installed environments, finish close-ups. | James |
-
-*Route: SicoCreative (sicocreative.com/activedesk) built the identity and holds the masters.
-Asking James to request them is faster and more accurate than sampling.*
-
-### A2. Specification figures — PLACEHOLDER until supplied
-Recovered specs are Expressive-only (from the brochure PDF) plus shared frame data.
-Everything below is an empty spec cell in the comparison table.
-
-| Missing | Tiers affected |
-|---|---|
-| Motor count and type | all four |
-| Lift speed (mm/s) | Naturalist, Smooth Operator, Perfectionist |
-| Noise level (dB) | Naturalist, Smooth Operator, Perfectionist |
-| Duty cycle | all four |
-| Load capacity | Naturalist, Smooth Operator, Perfectionist |
-| Desktop size options | all four |
-| Edge detail | all four |
-| Full decor/colour names | Naturalist, Smooth Operator, Perfectionist |
-| Frame warranty term (desktop is 10yr) | all four |
-| Returns policy | site-wide |
-
-**Conflict to resolve — BLOCKING for the spec table:**
-Width adjustment is stated as **1200–2000mm** on the Perfectionist page but **1100–1900mm**
-in the installation guide title. Height appears to be **580–1230mm**. Almost certainly two
-frame sizes, but this must be confirmed rather than guessed.
-
-**Confirm:** is the Perfectionist SKU code **Active_04**? Active_01/02/03 are confirmed from
-indexed page titles; 04 is inferred.
-
-### A3. Missing copy — PLACEHOLDER
-- The **seven body paragraphs** under the benefit blocks on the business page. Not recovered
-  from the live site; either James supplies them or they need writing from scratch.
-- Two homepage paragraphs are **truncated mid-sentence on the live site** ("…hello to peak"
-  and "…boosting overall"). The endings do not exist anywhere — James must complete them.
-- Exact **penalty-clause wording** for the 21-day delivery-and-install guarantee. The offer
-  is verified; the mechanism (free desks per three-day delay) is second-hand.
-
-### A4. Trust and proof — PLACEHOLDER
-All four testimonials are verbatim and usable now, but attribution is thin — only Derek
-Knowles has a role, none have a company, none have a photo.
-- Company names for Will Lewis, Phil Thompson, Cameron Watson
-- Company logos (permission to display)
-- Headshots
-- Any named installations that can be referenced publicly
-- Stockist list — they recruit dealers but list none
-
-### A5. Legal and company details — required for the footer
-The current site has **no footer at all**, so none of this is published anywhere.
-Confirmed from Companies House and safe to publish: company no. **13461733**, registered
-office **Penny Lane Business Centre, 374 Smithdown Road, Liverpool, L15 5AN**.
-Still needed from James:
-- VAT number (if registered)
-- Public contact email and phone
-- Whether the registered office is also the correspondence address
-- Approval of the privacy policy, terms and cookie notice before they go live
+| D1 | Canonical host: www or non-www | Both indexed today — a real duplicate-host problem |
+| D2 | Form backend | Formspree, Web3Forms or their Mailchimp. Currently mail-to with a marked provider insertion point |
+| D3 | Fate of `offers.activedesk.co.uk` | Dead install, still indexed, times out |
+| D4 | SKU convention: A_1 or Active_01 | Brochures say A_1; old page titles said Active_01 |
 
 ---
 
-## B. Decisions needed
+## Handle with care
 
-| # | Decision | Owner | Notes |
-|---|---|---|---|
-| B1 | Publish indicative pricing ("from £…")? | James | They publish none anywhere. Even a from-price would give "Quality Meets Affordability" something to stand on. Flag, never assume. |
-| B2 | Canonical host: www or non-www | James/Faisal | Both are currently indexed — a genuine duplicate-host problem. Pick one, 301 the other. |
-| B3 | Form backend: Formspree, Web3Forms, or their existing Mailchimp | Faisal | Mailchimp already handles newsletter and dealer registration. |
-| B4 | Fate of `offers.activedesk.co.uk` | James | Dead WordPress install, still indexed, times out. Restore or remove and de-index. |
-| B5 | Build scope for the pitch (see STAGE0_PLAN.md §3) | Faisal | Full 13-page IA is a large amount of spec work for an October project. |
-| B6 | 3D desk — phase two or not at all | Faisal | Current recommendation: ship the CSS raise, treat 3D as an enhancement. |
-
----
-
-## C. Handle with care
-
-- **The founder story involves a real bereavement.** Ian Hawley, stepfather, died 24 September
-  2020 of severe progressive discitis. Mother Maggie. Dog Blade. The story is the brand's
-  greatest asset and must never be trivialised by a design flourish.
-- **The "deaf certificate" typo** sits on that page and should read "death certificate".
-  Per Faisal's instruction: raise this with James **privately, by call or in person — never
-  in a written defect list or a bulk email.**
-- **James's personal photographs** (Steelway in Wolverhampton; walking Blade) must never be
-  replaced with generated imagery. They are the emotional proof of the story.
-- **Health statistics keep their attributions.** The BMJ figure (~70,000 deaths per year,
-  £0.7bn NHS cost) and the Get A Move On figures (6.9m working days lost, £35bn mental health
-  cost) may be used **with their sources named**. No new medical claims, ever.
+- **The founder story records a real bereavement.** Ian Hawley, died 24 September 2020, severe
+  progressive discitis. Mother Maggie. Dog Blade. Preserved faithfully at `/story`.
+- **The "deaf certificate" typo** is corrected to "death certificate" on the rebuild. Raise it
+  with James **privately, by call or in person — never in a written defect list.**
+- **James's personal photographs** (Steelway, Wolverhampton; walking Blade) must never be
+  replaced with generated imagery. Both slots are marked awaiting his originals.
+- **Health statistics keep their attributions.** The BMJ and Get A Move On figures appear with
+  their sources named. No new medical claims.
 
 ---
 
-## D. Live-site defects being fixed in the rebuild
-*(Recorded so nothing is faithfully reproduced by accident.)*
+## Live-site defects fixed in the rebuild
 
 | Defect | Fix |
 |---|---|
-| "deaf certificate" (founder story) | → "death certificate" — raise with James privately first |
-| "the danger's of prolonged sitting" (About H1) | → "dangers" |
-| Two truncated homepage paragraphs | Needs James — see A3 |
-| Lowercase `act_ive De_sk` on business page | → `Act_ive De_sk` everywhere |
-| Double-dot `..` ellipsis throughout | → proper punctuation or a single `…` |
-| Mixed US/UK spelling ("Revolutionizing", "Customization", "favorably") | → UK English throughout |
-| Three pages share the duplicate title "Activedesk" | → unique title per page |
-| Product pages with empty/missing titles | → unique title per page |
-| No meta descriptions sitewide | → unique description per page |
-| Spec tables rendered as images/JS | → real HTML tables, readable by search engines and screen readers |
-| No footer anywhere | → full legal footer |
-| Instagram never linked | → linked in footer |
+| "deaf certificate" | → "death certificate" |
+| "the danger's of prolonged sitting" | → "dangers" |
+| Lowercase `act_ive De_sk` | → `Act_ive De_sk` throughout |
+| Double-dot `..` ellipsis | → proper punctuation |
+| Mixed US/UK spelling | → UK English throughout |
+| Duplicate "Activedesk" titles on three pages | → unique title per page |
+| No meta descriptions | → unique description per page |
+| Spec tables as images/JS | → real HTML tables, readable by search engines and screen readers |
+| No footer anywhere | → full legal footer, company number and registered office |
+| Instagram never linked | → linked in the footer |
+| No prices, no comparison | → comparison table with price on enquiry |
 
 ---
 
-## E. Placeholders currently in the build
-
-| Placeholder | Where | Replace with |
-|---|---|---|
-| Proposed palette tokens | `assets/css/site.css` `:root` | SicoCreative palette (A1) |
-| Archivo / Instrument Sans | `:root` font tokens | SicoCreative typefaces (A1) |
-| Type-set wordmark | header | Real logo master (A1) |
-| CSS desk illustration | rise section | Product photography or 3D (B6) |
-| Price cells | comparison table (not yet built) | B1 decision |
-| Spec cells | comparison table (not yet built) | A2 figures |
-
----
-
-*Last updated: Stage 0 revision, after the build kit landed.*
+*Last updated: full rebuild, 23 Aug.*
